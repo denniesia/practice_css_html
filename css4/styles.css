@@ -1,0 +1,22 @@
+nav > ul {
+    color: blue;
+}
+nav > ul::first-line {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+#header-title {
+    font-weight: bold;
+}
+
+.services p {
+    background-color: lightblue;
+}
+
+img {
+    border: 10px solid red;
+}
