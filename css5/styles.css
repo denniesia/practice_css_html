@@ -1,0 +1,31 @@
+section  p {
+    color: gray;
+}
+
+
+
+article.highlight + article {
+    background-color: rgb(152, 69, 69);
+}
+
+li {
+    font-weight: bold;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.styled {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links li:last-child a {
+    color: green;
+  }
+
+h2 ~ p{
+    color: blue;
+}
