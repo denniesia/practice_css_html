@@ -1,0 +1,28 @@
+p.highlight {
+    color: blue;
+    font-weight: bold;
+}
+
+#special {
+    background-color: orange;
+    
+}
+
+div ul li.blue {
+    color: aqua;
+}
+
+li.italic {
+    font-style: italic;
+    color: red;
+}
+
+a[href="https://softuni.bg/"] {
+    color: orange;
+    text-decoration: underline;
+}
+
+.with {
+    color: blue;
+    font-weight: bold;
+}
