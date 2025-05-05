@@ -1,0 +1,21 @@
+nav, section, footer {
+    border: 1px solid gray;
+    padding:  10px ;
+    margin-bottom: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px ;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: green;
+}
+
