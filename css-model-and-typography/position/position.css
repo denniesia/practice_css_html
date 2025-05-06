@@ -16,7 +16,6 @@ section {
 .relative .item:nth-child(2) {
     position: relative;
     background: rgb(136, 223, 146);
-
     top: 40px;
     left: 80px;
 }
@@ -24,7 +23,6 @@ section {
 .absolute .item:nth-child(2) {
     position: relative;
     background: rgb(136, 223, 146);
-
     bottom: 40px;
     left: 30px;
     z-index: 2;
