@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+    margin-left: 1em;
+}
+
+.container {
+    padding: 0.7em;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    width: 25em;
+    height: 17em;
+    display: flex;
+}
+
+.item {
+    padding: 1.5em;
+    border: 2px solid #2d2c2c;
+    background-color: #eeebeb;
+    align-self: flex-start;
+}
+
+.center > div:nth-child(2) {
+    align-self: center;
+}
+
+.end > div:nth-child(2) {
+    align-self: flex-end;
+}
+
+.baseline > div:nth-child(2) {
+    align-self: baseline;
+}
+
+.container:last-of-type {
+    margin-bottom: 1em;
+}
