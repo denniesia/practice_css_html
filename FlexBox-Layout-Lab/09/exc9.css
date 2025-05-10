@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    margin-left: 1em;
+}
+
+.container {
+    padding: 0.7em;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    width: 20em;
+    display: flex;
+}
+
+.item {
+    padding: 1.5em;
+    border: 2px solid #2d2c2c;
+    background-color: #eeebeb;
+    width: 15em;
+    height: 0.5em;
+}
+
+.default .item {
+    flex-shrink: 1;
+}
+
+.zero .item {
+    flex-shrink: 0;
+}
+
+.second .item:nth-child(2) {
+    flex-shrink: 1;
+}
+
+.second .item:first-child, 
+.second .item:last-child {
+    flex-shrink: 0;
+}
