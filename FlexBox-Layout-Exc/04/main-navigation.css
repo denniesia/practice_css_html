@@ -1,0 +1,26 @@
+.container {
+    background-color: #fff;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.2);
+    margin: 4em 2em;
+
+    display: flex;
+    background-color: #f8f8f8;
+    flex-wrap: wrap;
+}
+
+p {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    margin-left: 1em;
+    background-color: #fff;
+    
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: darkorange;
+}
