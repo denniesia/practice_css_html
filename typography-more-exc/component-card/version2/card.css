@@ -1,0 +1,20 @@
+html {
+    background-color: rgb(186, 185, 185);
+}
+
+section {
+    background-color: white;
+    width: 500px;
+}
+
+.info {
+    margin: 1em;
+}
+img {
+    width: 500px;
+    height: auto;
+}
+
+.footer span {
+    display: block;
+}
