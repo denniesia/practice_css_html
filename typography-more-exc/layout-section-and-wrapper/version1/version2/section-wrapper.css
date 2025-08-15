@@ -1,0 +1,16 @@
+section {
+    padding: 2em;
+    border: 2px solid green;
+}
+
+.outer {
+    padding: 2em;
+    border: 2px solid gray;
+    margin: 1em;
+}
+
+.inner {
+    padding: 2em;
+    border: 2px solid blue;
+    margin: 1em;
+}
