@@ -1,16 +1,29 @@
-section {
-    padding: 2em;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 2px solid green;
+    padding: 2em;
 }
 
-.outer {
+.section  {
+    border: 2px solid black;
     padding: 2em;
-    border: 2px solid gray;
-    margin: 1em;
+
 }
 
-.inner {
-    padding: 2em;
+.section:not(:first-child) {
+    margin-top: 2em;
+}
+
+.section .wrapper {
     border: 2px solid blue;
-    margin: 1em;
+    padding: 2em;
+    max-width: 66ch;
+    margin: 0 auto;
+
 }
