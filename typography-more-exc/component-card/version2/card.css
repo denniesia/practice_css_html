@@ -1,20 +1,35 @@
-html {
-    background-color: rgb(186, 185, 185);
-}
-
-section {
-    background-color: white;
-    width: 500px;
-}
-
-.info {
-    margin: 1em;
-}
-img {
-    width: 500px;
-    height: auto;
-}
-
-.footer span {
+card {
     display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    color: 0;
+    text-decoration: none;
+}
+
+.card span,
+.card strong {
+    display: block;
+}
+
+.card .media {
+    margin-bottom: 1em;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+
+.card .main,
+.card .footer {
+    padding-inline: 1.5em;
+}
+
+.card .footer > span:first-child {
+   padding-block: 2em 1.2em;
+}
+
+.card .footer > span {
+    white-space: nowrap;
+    overflow: hidden;
+    font-style:italic;
+    opacity: 1.1;
 }
