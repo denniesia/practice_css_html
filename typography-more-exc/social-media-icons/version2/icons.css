@@ -1,0 +1,19 @@
+section {
+    margin-left: 1em;
+}
+
+.icons {
+    display: block;
+    margin-top: 1.3em;
+ 
+}
+
+a {
+    background-color: rgb(227, 227, 227);
+    padding: 1em;
+    border-radius: 50%;
+}
+
+i {
+   color: black;
+}
