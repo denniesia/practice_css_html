@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+}
+
+
+h1 {
+    margin-bottom: 0.3em;
+}
+
+a {
+    display: inline-block;
+    padding: 1em;
+    background-color: #e8e6e6;
+    border-radius: 5%;
+    border: 1px solid #b8b7b7;
+    text-decoration: 0;
+    color: black;
+}
+
+a + a {
+    margin-left: 0.5em;
+}
+
+button {
+    padding: 1.3em;
+    width: auto;
+    border-radius: 5%;
+    outline: none;
+    border: none;
+    background-color: #e8e6e6;
+    border: 1px solid #b8b7b7;
+
+    
+}
+
+
+button + button {
+    margin-left: 0.5em;
+}
+
+.orange {
+ background-color: #F89700;
+}
+
+.yellow {
+    background-color: #F9F9CC;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
