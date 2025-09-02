@@ -1,0 +1,55 @@
+@media all {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 2em;
+        font: 14px/1.5 Lato, sans-serif;
+    }    
+
+    p {
+        padding-bottom: 1.5em;
+    }
+    h2 {
+    margin-top: 0.5em;
+    }
+    
+    pre {
+        background: #eee;
+        padding: 0.2em 0.4em;
+        border-radius: 0.3em;
+        color: #350;
+    }
+
+    body::before {
+        padding: 1em 1.4em;
+        background: rgb(0, 3, 102);
+        color: #fff;
+        margin-bottom: 1.5em;
+        border-radius: 0.3em;
+    }
+} 
+
+@media screen {
+    body::before {
+        display: block;
+        content: 'The page is being shown on a screen';
+        background: #360;
+    }
+}
+
+@media print {
+    body::before {
+        display: block;
+        content: 'The page is using a print preview or it was printed';
+        background: orange ;
+    }
+}
+
+
+
+
+
