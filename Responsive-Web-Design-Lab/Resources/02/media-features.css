@@ -1,0 +1,65 @@
+@media all {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 2em;
+        font: 14px/1.5 Lato, sans-serif;
+    }    
+
+    p {
+        padding-bottom: 1.5em;
+    }
+    h2 {
+    margin-top: 0.5em;
+    }
+    
+    pre {
+        background: #eee;
+        padding: 0.2em 0.4em;
+        border-radius: 0.3em;
+        color: #350;
+    }
+
+    body::before {
+        padding: 1em 1.4em;
+        background: rgb(0, 3, 102);
+        color: #fff;
+        margin-bottom: 1.5em;
+        border-radius: 0.3em;
+    }
+} 
+
+@media (hover: none) {
+    body::before {
+        display: block;
+        content: "This device doesn't support hover";
+        background: #369;
+    }
+}
+@media (orientation: landscape) {
+    body::before {
+        display: block;
+        content: 'The device is in landscape orientation';
+        background: #369;
+        }
+}
+
+@media (width: 600px) {
+    body::before {
+    display: block;
+    content: 'The viewport width is 600px';
+    background: orange;
+    }
+}
+
+@media (height: 800px) {
+    body::before {
+    display: block;
+    content: 'The viewport height is 800px';
+    background: green;
+    }
+}
