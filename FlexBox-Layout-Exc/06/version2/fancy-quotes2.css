@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+body {
+    background: #eee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+
+.section.quotes {
+    display: flex;
+    gap: 2em;
+}
+
+.section.quotes .main {
+    display: flex;
+    flex-direction: column;
+    gap: inherit;
+
+}
+
+.section.quotes .aside { 
+    flex: 1 1 55ch;
+    display: flex;
+    flex-direction: column;
+    gap: inherit;
+
+}
+
+.section.quotes .aside > * {
+    flex-grow: 1;
+    
+}
+
+.section.quotes .card {
+    background: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.1);
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+
+.section.quotes .card .avatar {
+    flex: 0 0 15ch;
+    background: green;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0.1);
+}
+
+.section.quotes .card svg {
+    width: 3em;
+
+}
+
+.section.quotes .card p {
+    opacity: 0.6;
+
+}
+
+.section.quotes .aside .card {
+    flex-direction: column;
+    align-items: start;
+}
+
+.section.quotes .aside .card .avatar {
+    flex-basis: 12ch;
+    margin-top: 2em;
+}
